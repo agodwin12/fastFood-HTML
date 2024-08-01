@@ -1,0 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    padding: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    background: #fff5f1;
+}
+
+.row {
+    display: flex;
+}
+
+.container .logo {
+    height: 80px;
+    width: 80px;
+}
+
+.nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    gap: 2.5em;
+}
+
+.nav a {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navigation {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.primary-list {
+    margin: 0 auto;
+}
+
+.secondary-list {
+    margin-left: 0;
+}
+
+.nav-btn,
+.btn {
+    background-color: #fb8c5d;
+    color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 0.5rem 1em;
+}
+
+.navigation a:hover {
+    opacity: 0.7;
+}
+
+.hero-body {
+    position: relative;
+    padding: 0 2.5em;
+    overflow: hidden;
+    background: #fff5f1;
+}
+
+.hero-body > * {
+    flex-basis: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: black;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.hero-body ul {
+    padding-left: 1em;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+
+span {
+    color: #fb8c5d;
+}
+
+.img-content {
+    max-height: 500px;
+    z-index: 1;
+}
+
+.foodmenu{
+    text-align: center;
+    padding-top: 50px;
+}
+.foodmenu h2{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.foodmenu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.foodmenu ul li{
+    display: inline-block;
+    margin: 0 1em;
+}
+.foodmenu a{
+    text-decoration: underline;
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 325px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,3);
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    height: 40%;
+}
+
+.card-content{
+    padding: 16px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.last{
+    background-color: #fff5f1;
+}
+
+
+footer ul{
+    list-style: none;
+}
+footer{
+    background-color: #2A2A2A;
+    padding: 70px 0;
+
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h2{
+    font-size: 18px;
+    color: #6a9dc6;
+    font-family: cursive;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #6a9dc6;
+    font-family: cursive;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 200;
+    position: relative;
+}
+.footer-col p{
+    font-size: 18px;
+    color: white;
+    font-family: cursive;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 200;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #6a9dc6;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: white;
+    padding-left: 8px;
+}
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: black;
+    transition: all 0.5s ease;
+}
+.footer-col .social-link a:hover{
+    color: black;
+    background: white;
+}
+
+
+
+
+@media screen and (max-width: 950px) {
+
+    .toggleMenu {
+        position: absolute;
+        background-image: url("images/menu.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30px;
+        width: 30px;
+        height: 30px;
+        padding: 2em;
+        right: 15px;
+        z-index: 1000;
+        cursor: pointer;
+    }
+
+    .toggleMenu.active {
+        background-image: url("images/close-116.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25px;
+    }
+
+
+    .navigation {
+        justify-content: center;
+        flex-direction: column;
+        opacity: 0;
+        max-height: 0;
+        transform: scale(1, 0);
+        -webkit-transform: scale(1, 0);
+        -moz-transform: scale(1, 0);
+        -o-transform: scale(1, 0);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+        .navigation.active {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            opacity: 1;
+            max-height: 100%;
+            background-color: #fff5f1;
+            transform: scale(1, 1);
+            -webkit-transform: scale(1, 1);
+            -moz-transfor: scale(1, 1);
+            -o-transform: scale(1, 1);
+            z-index: 999;
+        }
+
+        .navigation ul {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .secondary-list {
+            margin-top: 2.5em;
+        }
+        .hero-body{
+            padding: 0;
+            flex-direction: column;
+        }
+        .foodmenu{
+            display: inline-block;
+        }
+    }

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+<section class="container row nav">
+    <a href="">
+        <img src="images/3-removebg-preview.png" alt="" class="logo">
+    </a>
+    <div class="toggleMenu"onclick="toggleMenu();"></div>
+    <nav class="navigation row">
+        <ul class="row primary-list">
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">STORE</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+        <ul class="row secondary-list">
+            <li><a href="" class="nav-btn">LOGIN</a></li>
+        </ul>
+    </nav>
+</section>
+
+<section class="container row hero-body">
+    <div class="content">
+        <h1>Best food for your taste</h1>
+        <p>Embark on a journeyofculinary deligt atour restaurant</p>
+        <a href="" class="btn">ORDER NOW</a>
+    </div>
+    <div class="row img-content">
+        <div class="circle"></div>
+        <img src="images/3-removebg-preview.png" alt="">
+
+    </div>
+
+</section>
+
+<section class="foodmenu">
+    <h2>Choose you best food menu</h2>
+    <ul >
+        <li><a href="">Steak</a></li>
+        <li><a href="">Burgers</a></li>
+        <li><a href="">Whisky</a></li>
+        <li><a href="">Beverges</a></li>
+        <li><a href="">Others</a></li>
+    </ul>
+    <div class="cardContainer">
+        <div class="card">
+            <img src="images/7.jpeg" alt="">
+            <div class="card-content">
+                <h3>Sizzle stark burger</h3>
+                <p>Top Quality Meal at a very affordable cost</p>
+                <p>XAF 1500</p>
+                <a href=""class="btn">BUY</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/9.jpeg" alt="">
+            <div class="card-content">
+                <h3>Milkshake</h3>
+                <p>Top Quality Meal at a very affordable cost</p>
+                <p>XAF 1500</p>
+                <a href=""class="btn">BUY</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/2.jpg" alt="">
+            <div class="card-content">
+                <h3>Big mack</h3>
+                <p>Top Quality Meal at a very affordable cost</p>
+                <p>XAF 1500</p>
+                <a href=""class="btn">BUY</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="last">
+    <div class="cardContainer">
+        <div class="card">
+            <img src="images/7.jpeg" alt="">
+            <div class="card-content">
+                <h3>Sizzle stark burger</h3>
+                <p>Top Quality Meal at a very affordable cost</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/9.jpeg" alt="">
+            <div class="card-content">
+                <h3>Milkshake</h3>
+                <p>Top Quality Meal at a very affordable cost</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="footer">
+        <div class="row">
+            <div class="footer-col">
+                <h2>Holiday Bootcamp Burgers</h2>
+
+            </div>
+            <div class="footer-col">
+                <h4>LINKS</h4>
+                <ul>
+                    <li><a href="">Privacy link</a></li>
+                    <li><a href="">Data protection  policy</a></li>
+                    <li><a href="">About us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>FOLLOW US</h4>
+                <div class="social-link">
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+
+            </div>
+            <div class="footer-col">
+                <h4>OUR ADDRESS</h4>
+                <P>Fast Food Holiday camp</P>
+                <P>Douala logpom</P>
+                <P>+237 9900 111 111</P>
+                <P>Holiday boot camp</P>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script>
+    function toggleMenu(){
+
+        const toggleMenu = document.querySelector('.toggleMenu');
+        const navigation = document.querySelector('.navigation');
+        toggleMenu.classList.toggle("active");
+        navigation.classList.toggle("active");
+    }
+</script>
+</html>
